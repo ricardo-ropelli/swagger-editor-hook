@@ -33,3 +33,4 @@ ManagerSwaggerHeader.getXSRFToken() -> In case you need a CSRF/XSRF token, here 
 ManagerSwaggerHeader.getSwaggerFromManager() -> Need to be implemented, this needs to get a swagger content.
 ManagerSwaggerHeader.callbackToApisList() -> It will redirect user to specific page.
 ManagerSwaggerHeader.callbackToApiOverview() -> It will redirect user to specific page.
+ManagerSwaggerHeader.saveNewRevision() -> It performs the save action, based on what you have done inside swagger ui.
