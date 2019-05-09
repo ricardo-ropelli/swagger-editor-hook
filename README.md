@@ -34,3 +34,6 @@ ManagerSwaggerHeader.getSwaggerFromManager() -> Need to be implemented, this nee
 ManagerSwaggerHeader.callbackToApisList() -> It will redirect user to specific page.
 ManagerSwaggerHeader.callbackToApiOverview() -> It will redirect user to specific page.
 ManagerSwaggerHeader.saveNewRevision() -> It performs the save action, based on what you have done inside swagger ui.
+
+### How it looks like ###
+![swagger-editor-hook](./resource/swagger-editor-hook.png)
