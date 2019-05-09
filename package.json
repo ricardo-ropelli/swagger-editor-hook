@@ -1,0 +1,39 @@
+{
+  "name": "swagger-editor-hook",
+  "version": "1.0.0",
+  "description": "swagger-editor-hook",
+  "main": "lib/ManagerSwaggerHeader.js",
+  "scripts": {
+    "build": "webpack --progress --colors --p",
+    "start": "webpack-dev-server --hot",
+    "transpile": "node_modules/.bin/babel ./src/ManagerSwaggerHeader.js --presets babel-preset-es2015 --out-file lib/ManagerSwaggerHeader.js && node_modules/.bin/babel ./src/MessageError.js --presets babel-preset-es2015 --out-file lib/MessageError.js && node_modules/.bin/babel ./src/MessageSuccess.js --presets babel-preset-es2015 --out-file lib/MessageSuccess.js",
+    "setcss": "mkdir ./lib/bootstrap && cp -R ./custom_modules/* ./lib/ && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./lib/bootstrap/ && cp -R .//node_modules/bootstrap/dist/fonts ./lib/",
+    "clearfiles": "rm -rf ./lib/bootstrap && rm -rf ./lib/css && rm -rf ./lib/fonts && rm -rf ./lib/images",
+    "regenlib": "npm run clearfiles && npm run setcss && npm run transpile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "js-yaml": "^3.11.0",
+    "json2yaml": "^1.1.0",
+    "react": "^16.2.0",
+    "react-cookies": "^0.1.0",
+    "react-dom": "^15.6.2",
+    "react-toastify": "^3.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

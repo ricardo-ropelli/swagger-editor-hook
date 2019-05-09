@@ -1,0 +1,174 @@
+.table-title-swagger {
+    border-bottom: 1px solid rgba(160, 160, 160, 0.15);
+    padding: 20px 20px 20px 0px;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0px 0px 0px 30px;
+    color: #9B9B9B;
+}
+.btn-swagger a {
+    padding: 5px 30px 5px 5px;
+    background-color: #59c614;
+}
+
+.btn-swagger span {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-swagger a:hover {
+    background-color: #59c614;
+}
+
+i.logo-swagger-2 {
+    background-image: url("../images/swagger-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    .btn-action {
+        margin-left: 448px;
+        margin-bottom: 12px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -50px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .btn-action {
+        float: none;
+        text-align: center;
+        top: 16px;
+        margin-left: 420px;
+        margin-bottom: 31px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -36px;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn-action {
+        margin-left: 160px;
+        margin-bottom: 10px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -50px;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .btn-action {
+        margin-left: 165px;
+        top: 6px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -70px;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 130px;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+    .btn-action {
+        top: 6px;
+        margin-left: 185px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -100px;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .btn-action {
+        margin-left: 200px;
+        top: 6px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -95px;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 200px;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .btn-action {
+        top: 6px;
+        margin-left: 205px;
+    }
+    .btn-swagger {
+        height: 10px;
+        top: 15px;
+        margin-left: -115px;
+    }
+    .btn-swagger a {
+        padding: 5px 10px 5px 5px;
+        background-color: #59c614;
+    }
+    .revision {
+        padding: 5px;
+        margin-right: 250px;
+    }
+}
+
+.toast-text-max-width {
+    width: 200px !important;
+    word-wrap: break-word;
+}
+
+.swagger-ui .info .title small pre.version {
+    font-size: 1em;
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+ }
+
+ body {
+     font-size: 9px !important;
+ }
+ 
+.swagger-ui .info .base-url {
+    background: none;
+    border: 0;
+    font-family: Source Code Pro,monospace;
+    padding: 10px 0 0 0;
+}
